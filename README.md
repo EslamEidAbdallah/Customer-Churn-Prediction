@@ -88,11 +88,6 @@ A user-friendly web application was built using **Streamlit**.
 - Model prediction with churn probability  
 - Clear result display (stay vs churn)  
 
-### Run the app locally:  
-```bash
-streamlit run app.py
-
-
 ---
 
 📸 Visualizations
