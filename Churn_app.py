@@ -79,7 +79,7 @@ with tab2:
         p = st.session_state["prediction"]
         pr = st.session_state["probability"]
         if p == 1:
-            st.error(f"⚠ Customer likely to churn — probability: {pr*100:.2f}%")
+            st.error(f"⚠ Customer likely to churn — probability of churn: {pr*100:.2f}%")
         else:
             st.success(f"✅ Customer likely to stay — probability of staying: {(1-pr)*100:.2f}%")
     else:
