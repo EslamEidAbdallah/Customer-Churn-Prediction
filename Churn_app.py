@@ -81,7 +81,7 @@ with tab2:
         if p == 1:
             st.error(f"⚠ Customer likely to churn — probability: {pr*100:.2f}%")
         else:
-            st.success(f"✅ Customer likely to stay — probability of churn: {(1-pr)*100:.2f}%")
+            st.success(f"✅ Customer likely to stay — probability of staying: {(1-pr)*100:.2f}%")
     else:
         st.info("No prediction yet. Please enter data and click Predict.")
 
